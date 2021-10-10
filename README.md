@@ -8,7 +8,7 @@ For styling:
 
 # Demo
 
-![App's demo](public\demo.gif)
+![App's demo](public/demo.gif)
 
 # Install the app
 
