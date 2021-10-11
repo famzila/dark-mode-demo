@@ -6,7 +6,7 @@ For styling:
 
 - Bootstrap and Reactstrap
 
-Open [App's live demo]("https://dark-mode-demo-gamma.vercel.app/)
+Open [App's live demo](https://dark-mode-demo-gamma.vercel.app/)
 
 # Demo
 
