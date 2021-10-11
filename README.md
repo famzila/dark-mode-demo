@@ -6,6 +6,8 @@ For styling:
 
 - Bootstrap and Reactstrap
 
+# ![App's live demo](https://dark-mode-demo-gamma.vercel.app/)
+
 # Demo
 
 ![App's demo](public/demo.gif)
