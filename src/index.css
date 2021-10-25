@@ -4,11 +4,15 @@ body {
   font-weight: 400;
   line-height: 1.5;
   overflow-x: none;
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1800' height='1500' preserveAspectRatio='none' viewBox='0 0 1800 1500'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1158%26quot%3b)' fill='none'%3e%3crect width='1800' height='1500' x='0' y='0' fill='url(%23SvgjsLinearGradient1159)'%3e%3c/rect%3e%3cpath d='M-24.95 1388.79 a386.31 386.31 0 1 0 772.62 0 a386.31 386.31 0 1 0 -772.62 0z' fill='rgba(22%2c 18%2c 105%2c 0.32)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M914.5892400161954 316.3326248558464L648.0189275131103 582.3953265901539 964.4976341462965 673.1441354081355z' fill='rgba(22%2c 18%2c 105%2c 0.32)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M1087.8447213840595 1023.2986479452231L1437.2945864067274 1233.7228392997392 1449.7390729510269 877.3593706413493z' fill='rgba(22%2c 18%2c 105%2c 0.32)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M1517.4914987428426 554.2878559043834L1867.9696758981486 523.6249885900636 1486.8286314285228 203.80967874907753z' fill='rgba(22%2c 18%2c 105%2c 0.32)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M1719.462%2c815.784C1839.123%2c819.362%2c1949.212%2c746.254%2c2004.912%2c640.287C2057.171%2c540.867%2c2035.448%2c422.679%2c1976.273%2c327.213C1920.535%2c237.292%2c1825.221%2c182.521%2c1719.462%2c179.777C1608.363%2c176.894%2c1494.183%2c217.089%2c1438.48%2c313.258C1382.666%2c409.619%2c1407.78%2c526.86%2c1462.126%2c624.056C1518.078%2c724.125%2c1604.864%2c812.357%2c1719.462%2c815.784' fill='rgba(22%2c 18%2c 105%2c 0.32)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M628.6188720479188 567.4972495027685L562.6103780746358 832.2428585822274 827.3559871540947 898.2513525555103 893.3644811273778 633.5057434760514z' fill='rgba(22%2c 18%2c 105%2c 0.32)' class='triangle-float2'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1158'%3e%3crect width='1800' height='1500' fill='white'%3e%3c/rect%3e%3c/mask%3e%3clinearGradient x1='50%25' y1='100%25' x2='50%25' y2='0%25' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient1159'%3e%3cstop stop-color='%230e2a47' offset='0'%3e%3c/stop%3e%3cstop stop-color='rgba(15%2c 0%2c 158%2c 0.73)' offset='1'%3e%3c/stop%3e%3c/linearGradient%3e%3cstyle%3e %40keyframes float1 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-10px%2c 0)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float1 %7b animation: float1 5s infinite%3b %7d %40keyframes float2 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-5px%2c -5px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float2 %7b animation: float2 4s infinite%3b %7d %40keyframes float3 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(0%2c -10px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float3 %7b animation: float3 6s infinite%3b %7d %3c/style%3e%3c/defs%3e%3c/svg%3e");
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+body > .container {
+  padding-top: 60px;
 }
