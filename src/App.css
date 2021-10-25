@@ -3,41 +3,18 @@
   margin: 15px;
 }
 
-.card {
-  background-color: black;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  cursor: pointer;
+.board {
+  margin: 80px;
 }
 
-.flex-container {
-  /* We first create a flex layout context */
-  display: flex;
-
-  /* Then we define the flow direction 
-     and if we allow the items to wrap 
-   * Remember this is the same as:
-   * flex-direction: row;
-   * flex-wrap: wrap;
-   */
-  flex-flow: row wrap;
-
-  /* Then we define how is distributed the remaining space */
+.grid-container {
+  display: grid;
+  grid-template-columns: 150px 150px 150px 150px 150px 150px;
+  grid-gap: 2.5rem;
   justify-content: center;
-
-  /* Remove ul list default dots */
-  list-style: none;
 }
 
-.flex-item {
+.item {
   background-color: rgb(7, 7, 7) !important;
-  margin: 5px;
   width: 170px;
-  margin-top: 10px;
-  line-height: 150px;
-  font-weight: bold;
-  font-size: 3em;
-  text-align: center;
-  padding: 0;
 }

@@ -3,6 +3,7 @@ import React from 'react';
 import NavBar from './components/NavBar';
 import Board from './components/Board';
 import GameContext from './contexts/GameContext';
+import Footer from './components/Footer';
 
 class App extends React.Component {
   constructor(props) {
@@ -23,7 +24,8 @@ class App extends React.Component {
         <NavBar />
         <GameContext.Provider value={this.state}>
           <Board />
-        </GameContext.Provider>
+            </GameContext.Provider>
+            <Footer/>
       </div>
     );
   }
