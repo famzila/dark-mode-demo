@@ -20,7 +20,7 @@ export default function Footer() {
               FAM
             </a>
           </strong>{' '}
-          for a better web.
+          for fun.
         </div>
       </Container>
     </footer>
