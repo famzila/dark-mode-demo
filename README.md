@@ -6,8 +6,6 @@ For styling:
 
 - Bootstrap and Reactstrap
 
-Open [App's live demo](https://dark-mode-demo-gamma.vercel.app/)
-Open [Article about steps to follow to build the dark mode app step by step](https://famzil.medium.com/dark-mode-in-react-533faaee3c6e?source=your_stories_page-------------------------------------)
 # Demo
 
 ![App's demo](public/demo.gif)
